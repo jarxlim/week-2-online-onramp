@@ -14,14 +14,18 @@
 }
 #contact-us{
     background-color: rgb(86, 79, 79);
-    width: 60%;
+    width: 70%;
     height: 350px;
     border-radius: 10px;
     box-shadow: 0px 2px 60px #57243a;
     display: flex;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    justify-content: space-between;
 } 
+
+.contact-Txt{
+    padding-right: 100px;
+}
 
 .us{
     padding-top: 2px;
@@ -36,10 +40,10 @@ h3{
 
 input{
     background-color: rgb(86, 79, 79);
-    width: 300px;
+    width: 280px;
 }
 
-.box{
+#msg-box{
     height: 60px;
 }
 button{
